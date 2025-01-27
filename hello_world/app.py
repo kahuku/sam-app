@@ -2,7 +2,7 @@ import json
 
 # import requests
 
-
+# DREW WILSON DREW WILSON DREW WILSON
 def lambda_handler(event, context):
     """Sample pure Lambda function
 
@@ -33,10 +33,11 @@ def lambda_handler(event, context):
 
     #     raise e
 
-
+    print("Change deployed with SAM Accelerate");
+# DREW WILSON DREW WILSON DREW WILSON
     if True:
         raise Exception("This will cause a deployment rollback")
-
+# DREW WILSON DREW WILSON DREW WILSON
     return {
         "statusCode": 200,
         "body": json.dumps({
@@ -44,3 +45,4 @@ def lambda_handler(event, context):
             # "location": ip.text.replace("\n", "")
         }),
     }
+# DREW WILSON DREW WILSON DREW WILSON
